@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Detector</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+        textarea {
+            width: 90%;
+            height: 120px;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            resize: none;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .spam { color: red; }
+        .ham { color: green; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>📧 Spam Message Detector</h1>
+        <form method="POST">
+            <textarea name="message" placeholder="Type your message here..." required></textarea><br>
+            <button type="submit">Check</button>
+        </form>
+        {% if result is not none %}
+            <div class="result {{ 'spam' if is_spam else 'ham' }}">
+                {{ result }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
