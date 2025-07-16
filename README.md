@@ -93,6 +93,9 @@ Then open your browser and go to: http://127.0.0.1:5000
 
 ## 📄 Sample Output
 
+<img width="1919" height="964" alt="Screenshot 2025-07-17 002140" src="https://github.com/user-attachments/assets/a4d082ad-744b-42d3-b9de-480ba5e4fba2" />
+
+
 📧 Message:
 "Your PAN card will be blocked. Click here to verify."
 
