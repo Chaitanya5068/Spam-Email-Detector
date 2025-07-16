@@ -80,7 +80,7 @@ Message: "Assignment deadline extended to tomorrow" → ✅ NOT SPAM
 ## 📦 Installation & Run Instructions
 
 1. Clone the repo:
-   git clone https://github.com/your-username/spam-mail-detector.git
+   git clone https://github.com/chaitanya5068/spam-mail-detector.git 
    cd spam-mail-detector
 
 2. Install dependencies:
