@@ -80,13 +80,13 @@ Message: "Assignment deadline extended to tomorrow" → ✅ NOT SPAM
 ## 📦 Installation & Run Instructions
 
 1. Clone the repo:
-   git clone https://github.com/chaitanya5068/spam-mail-detector.git 
+   git clone https://github.com/Chaitanya5068/Spam-Email-Detector.git
    cd spam-mail-detector
 
-2. Install dependencies:
+3. Install dependencies:
    pip install -r requirements.txt
 
-3. Run the Flask app:
+4. Run the Flask app:
    python app.py
 
 Then open your browser and go to: http://127.0.0.1:5000
