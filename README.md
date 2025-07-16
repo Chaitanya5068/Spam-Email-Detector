@@ -29,31 +29,26 @@ It leverages state-of-the-art transformer models (DistilBERT) to achieve high ac
 - ⚙️ Scikit-learn (optional)
 
 ## 📁 Folder Structure
-
-SPAM MAIL DETECTOR/
-
-├── app.py                   # Flask app main file
-
-├── model_utils.py           # Loads transformer model and predicts
-
-├── requirements.txt         # Python dependencies
-
-├── templates/
-
-│   └── index.html           # UI template for input and result
+  
+     SPAM MAIL DETECTOR/
+    ├── app.py                   # Flask app main file
+    ├── model_utils.py           # Loads transformer model and predicts
+    ├── requirements.txt         # Python dependencies
+    ├── templates/
+    │   └── index.html           # UI template for input and result
 
 
 ## 📦 requirements.txt
 
-flask
+    flask
 
-transformers
+    transformers
 
-torch
+    torch
 
-pandas
+    pandas
 
-scikit-learn
+    scikit-learn
 
 ## ⚙️ How It Works
 
@@ -92,6 +87,7 @@ Message: "Assignment deadline extended to tomorrow" → ✅ NOT SPAM
 Then open your browser and go to: http://127.0.0.1:5000
 
 ## 📄 Sample Output
+<img width="1643" height="437" alt="Screenshot 2025-07-17 004059" src="https://github.com/user-attachments/assets/0c564ef1-529f-4d53-878d-5c3fe4105a22" />
 
 <img width="1919" height="964" alt="Screenshot 2025-07-17 002140" src="https://github.com/user-attachments/assets/a4d082ad-744b-42d3-b9de-480ba5e4fba2" />
 
